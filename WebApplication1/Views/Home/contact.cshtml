@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>contact</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h2>Helloo  @ViewData["name"], @ViewData["msg"]</h2>
+        <ul class="list-group">
+            <li class="list-group-item"> @ViewData["name"]</li>
+            <li class="list-group-item"> @ViewData["phone"]</li>
+            <li class="list-group-item"> @ViewData["mail"]</li>
+
+        </ul>
+    </div>
+</body>
+</html>
